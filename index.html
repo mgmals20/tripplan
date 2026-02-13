@@ -299,15 +299,16 @@
       burstConfetti();
     });
 
-    // ---- Tiny easter egg: click photo 5 times ----
+    // ---- Tiny easter egg: click photo 3 times ----
     let taps = 0;
     document.getElementById("photo").addEventListener("click", () => {
       taps++;
-      if(taps === 5){
-        reply.textContent = "Secret message: you’re my forever ❤️";
+      if(taps === 3){
+        reply.textContent = "You’re my forever ❤️";
         burstConfetti();
       }
     });
   </script>
 </body>
 </html>
+
